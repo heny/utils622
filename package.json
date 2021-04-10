@@ -1,0 +1,19 @@
+{
+  "name": "utils622",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "author": "heny <1623246663@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "description": "utils",
+  "keywords": ["utils"],
+  "homepage": "https://github.com/heny/utils622",
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heny/utils622.git"
+  },
+  "scripts": {
+    "build": "tsc ./src/ --outDir ./dist"
+  }
+}

@@ -1,0 +1,22 @@
+  
+{
+  "version": "1.8.10",
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "downlevelIteration": true,
+      "noEmit": true,
+      "lib": ["dom", "es2015", "scripthost"],
+      "useDefineForClassFields": true,
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/@types", "src/typings"]
+      }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["/node_modules"]
+}
